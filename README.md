@@ -5,9 +5,9 @@ MongoDB interpreter for Apache Zeppelin.
 
 This fork modifies the interpreter to aceept mongodb [connection string](https://docs.mongodb.com/manual/reference/connection-string/) as setting.  
 
-| field            | default   | example
-|------------------|-----------|-------------------------|
-| **mongo.server.uri** | ``        | `mongodb://{user}:{pass}@{host1}:27017,{host2}:27017,{host3}:27017/musicdb?replicaSet={rs}&authSource=admin&ssl=true` |
+| field                | default   | example
+|----------------------|-----------|-------------------------|
+| **mongo.server.uri** | null      | ```mongodb://{user}:{pass}@{host1}:27017,{host2}:27017,{host3}:27017/musicdb?replicaSet={rs}&authSource=admin&ssl=true``` |
 
 
 When `mongo.server.uri` is provided, the following fields are ignored:
