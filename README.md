@@ -7,7 +7,7 @@ This fork modifies the interpreter to accept mongodb [connection string](https:/
 
 | Parameter            | Default   | Example
 |----------------------|-----------|-------------------------|
-| **mongo.server.uri** | null      | ```mongodb://{user}:{pass}@{host1}:27017,{host2}:27017,{host3}:27017/musicdb?replicaSet={rs}&authSource=admin&ssl=true``` |
+| **mongo.server.uri** | null      | ```mongodb://user:1234@host1:27017,host2:27017,host3:27017/musicdb?replicaSet=myrs&authSource=admin&ssl=true``` |
 
 
 When `mongo.server.uri` is provided, the following fields are ignored:
