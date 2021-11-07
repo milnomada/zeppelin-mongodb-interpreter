@@ -3,7 +3,7 @@ MongoDB interpreter for Apache Zeppelin.
 
 ## Fork Updates
 
-This fork modifies the interpreter to aceept mongodb [connection string](https://docs.mongodb.com/manual/reference/connection-string/) as setting.  
+This fork modifies the interpreter to accept mongodb [connection string](https://docs.mongodb.com/manual/reference/connection-string/) as setting.  
 
 | field                | default   | example
 |----------------------|-----------|-------------------------|
